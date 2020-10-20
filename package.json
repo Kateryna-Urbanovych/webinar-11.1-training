@@ -1,0 +1,42 @@
+{
+  "name": "webinar-11.1-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /webinar-11.1-training/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kateryna-Urbanovych/webinar-11.1-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kateryna-Urbanovych/webinar-11.1-training/issues"
+  },
+  "homepage": "https://Kateryna-Urbanovych.github.io/webinar-11.1-training",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-custom-dist-structure": "^1.1.16",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "customDistStructure": {
+    "config": {
+      ".css": "css",
+      ".js": "js",
+      "images": [
+        ".jpg",
+        ".svg",
+        ".png"
+      ]
+    }
+  }
+}

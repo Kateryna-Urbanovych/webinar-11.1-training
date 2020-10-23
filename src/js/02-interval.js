@@ -1,3 +1,4 @@
+import '../css/styles.css';
 /*
  * Метод setInterval(callback, delay, args)
  */

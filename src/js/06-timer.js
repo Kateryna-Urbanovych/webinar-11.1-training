@@ -1,4 +1,6 @@
-refs = {
+import '../css/styles.css';
+
+const refs = {
     clockface: document.querySelector('.js-clockface'),
     openBtn: document.querySelector('button[data-action-start]'),
     closeBtn: document.querySelector('button[data-action-stop]'),

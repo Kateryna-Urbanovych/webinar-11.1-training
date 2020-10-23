@@ -1,3 +1,4 @@
+import '../css/styles.css';
 /*
  * Метод window.setTimeout(callback, delay, args)
  */

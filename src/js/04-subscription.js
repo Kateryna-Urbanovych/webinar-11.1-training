@@ -1,3 +1,4 @@
+import '../css/styles.css';
 import BSN from 'bootstrap.native';
 
 const modal = new BSN.Modal('#subscription-modal');
@@ -44,7 +45,7 @@ function onOpenModal() {
         return;
     }
     setTimeout(() => {
-        console.log('Открываем модалку')ж
+        console.log('Открываем модалку');
         modal.show();
         promptCounter += 1;
     }, PROMPT_DELAY)
